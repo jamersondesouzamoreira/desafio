@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore o Paraíso | Agência de Viagens</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Cabeçalho e Navegação -->
+  <header class="header">
+    <div class="container nav-container">
+      <a href="#" class="logo">Explore<span>Mundo</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#destaques">Destinos</a></li>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#contato" class="btn-nav">Reservar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Seção Hero (Início) -->
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <h1>Sua próxima aventura começa aqui</h1>
+        <p>Descubra os destinos mais incríveis do mundo com roteiros exclusivos e experiências inesquecíveis.</p>
+        <a href="#destaques" class="btn-primary">Explorar Destinos</a>
+      </div>
+    </section>
+
+    <!-- Seção de Destinos Turísticos -->
+    <section id="destaques" class="container destinos-section">
+      <h2 class="section-title">Destinos em Destaque</h2>
+      <p class="section-subtitle">Escolha o lugar perfeito para as suas próximas férias</p>
+
+      <div class="grid-destinos">
+        <!-- Card 1 -->
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80" alt="Praia paradisíaca com águas cristalinas">
+          <div class="card-content">
+            <span class="tag">Praia</span>
+            <h3>Caribe Tropical</h3>
+            <p>Relaxe em praias de areia branca e mergulhe em águas cristalinas de tirar o fôlego.</p>
+            <a href="#contato" class="btn-card">Saiba mais</a>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=600&q=80" alt="Montanhas cobertas de neve">
+          <div class="card-content">
+            <span class="tag">Aventura</span>
+            <h3>Alpes Suíços</h3>
+            <p>Sinta a emoção das montanhas cobertas de neve, perfeitas para esqui e paisagens deslumbrantes.</p>
+            <a href="#contato" class="btn-card">Saiba mais</a>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?auto=format&fit=crop&w=600&q=80" alt="Torre Eiffel em Paris">
+          <div class="card-content">
+            <span class="tag">Cultura</span>
+            <h3>Paris Histórica</h3>
+            <p>Explore a cidade da luz, rica em gastronomia, arte, arquitetura e charme inigualável.</p>
+            <a href="#contato" class="btn-card">Saiba mais</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Seção Sobre Nós -->
+    <section id="sobre" class="sobre-section">
+      <div class="container sobre-container">
+        <div class="sobre-texto">
+          <h2>Por que viajar conosco?</h2>
+          <p>Somos especialistas em criar experiências memoráveis. Oferecemos suporte 24 horas durante toda a sua viagem, roteiros personalizados e parcerias com os melhores hotéis do mundo.</p>
+          <ul class="diferenciais">
+            <li>✓ Guia turístico em português em todas as rotas</li>
+            <li>✓ Roteiros adaptados ao seu orçamento</li>
+            <li>✓ Cancelamento grátis até 48h antes da viagem</li>
+          </ul>
+        </div>
+        <div class="sobre-imagem">
+          <img src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=600&q=80" alt="Pessoa com mapa e câmera planejando viagem">
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção de Contato/Inscrição -->
+    <section id="contato" class="container contato-section">
+      <div class="contato-box">
+        <h2>Pronto para planejar sua viagem?</h2>
+        <p>Deixe seu e-mail e receba ofertas exclusivas semanalmente no seu correio.</p>
+        <form class="contato-form" action="#" method="POST" onsubmit="event.preventDefault();">
+          <input type="email" placeholder="Digite seu melhor e-mail" required>
+          <button type="submit" class="btn-primary">Quero Receber</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 ExploreMundo Turismo. Todos os direitos reservados.</p>
+      <div class="socials">
+        <a href="#">Instagram</a>
+        <a href="#">Facebook</a>
+        <a href="#">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
